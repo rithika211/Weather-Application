@@ -2,7 +2,7 @@ import { useState } from 'react';
 import searchIcon from './images/search.png';
 
 function App() {
-  const apiKey = "0a4f5c7d70da823eba088b4d3a17a6b1";
+  const apiKey = "your api key";
   const apiUrl = "https://api.openweathermap.org/data/2.5/weather?units=metric&q=";
 
   const [city, setCity] = useState("");
